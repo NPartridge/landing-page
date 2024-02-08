@@ -57,4 +57,32 @@
   .hero button{
     margin-top: 5px;
   }
+
+ .image-section{
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+ }
  
+ .title{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+ }
+
+  .image-grid{
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .image-grid-item {
+    width: 150px;
+    height: auto;
+  }
+
+  .image-grid-item p{
+    text-align: center;
+  }
