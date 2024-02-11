@@ -4,6 +4,21 @@
   box-sizing: border-box;
 }
 
+@font-face{
+	font-family: Roboto-Regular;
+	src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Extra-Bold;
+  src: url(fonts/Roboto/Roboto-Bold.ttf);
+}
+
+/* font used is Roboto */
+body{
+	font-family: Roboto-Regular;
+}
+
 .header-container {
   color: #fff;
   background-color: #5995DA;
@@ -14,18 +29,13 @@
 }
 
 .header {
-  border: 1px solid #fff;
-  /* For debugging */
   width: 1100px;
   display: flex;
   justify-content: space-between;
 }
 
 .header-links {
-  border: 1px solid #fff;
-  /* For debugging */
   display: flex;
-  /* justify-content: space-between; */
   gap: 15px;
 }
 
@@ -119,8 +129,6 @@
 }
 
 .action-content {
-  border: 1px solid #fff;
-  /* For debugging */
   width: 1100px;
   display: flex;
   justify-content: space-between;
@@ -133,3 +141,5 @@ footer{
   display: flex;
   justify-content: center;
 }
+
+
