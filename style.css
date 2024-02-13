@@ -23,10 +23,20 @@ body{
 	font-family: Roboto-Regular;
 }
 
+button{
+  padding: 5px 25px;
+  background-color: #3882F6;
+  color: white;
+  font-weight: bolder;
+  border: none;
+  border-radius: 4px;
+}
+
+
+/* header styles */
+
 .header-container {
-  color: #fff;
   background-color: #1f2937;
-  /* Blue */
   padding: 20px 0;
   display: flex;
   justify-content: center;
@@ -52,6 +62,8 @@ body{
   text-decoration: none;
 }
 
+/* hero styles */
+
 .hero-container {
   background-color: #1f2937;
   display: flex;
@@ -66,8 +78,7 @@ body{
   align-items: center;
 }
 
-.hero-text {
-  height: 200px;
+.hero-text{
   width: 450px;
 }
 
@@ -83,9 +94,25 @@ body{
   font-size: 18px;
 }
 
+.hero-image{
+  width: 400px;
+  height: 175px;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: none;
+}
+
+.hero-image p{
+  color: white;
+}
+
 .hero button {
   margin-top: 5px; 
 }
+
+/* image section styles */
 
 .image-section {
   display: flex;
@@ -113,7 +140,7 @@ body{
   gap: 30px;
 }
 
-.image-grid-item {
+.image-grid-item{
   width: 150px;
   height: auto;
 }
@@ -122,6 +149,15 @@ body{
   text-align: center;
 }
 
+.image-placeholder{
+  height: 150px;
+  width: auto;
+  border: solid #3882F6;
+  border-radius: 10px;
+}
+
+/* quote styles */
+
 .quote-section {
   display: flex;
   justify-content: center;
@@ -129,7 +165,7 @@ body{
 }
 
 .quote-content {
-  width: 700px;
+  width: 560px;
   height: 300px;
   display: flex;
   flex-direction: column;
@@ -139,29 +175,38 @@ body{
 .quote-text{
   color: #1F2937;
   font-family: Roboto-ThinItalic;
-  font-size: 36px;
+  font-size: 26px;
 }
 
 .quote-author {
   align-self: flex-end;
 }
 
+/* action styles */
+
 .action-section {
-  color: #fff;
-  background-color: #3882F6; ;
-  padding: 100px 0;
+  padding: 70px 0;
   display: flex;
   justify-content: center;
 }
 
 .action-content {
-  width: 1100px;
+  background-color: #3882F6; 
+  color: #fff;
+  width: 1000px;
   display: flex;
   justify-content: space-between;
-  padding: 20px;
   align-items: center;
+  padding: 40px 60px;
+  border-radius: 4px;
 }
 
+.action-button{
+  border: white solid;
+  border-radius: 4px;
+}
+
+/* footer styles */
 footer{
   padding: 20px 0;
   display: flex;
@@ -170,7 +215,4 @@ footer{
   color: #E5E7EB;
 }
 
-button {
-  background-color: #3882F6;
-}
 
