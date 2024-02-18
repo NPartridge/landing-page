@@ -104,7 +104,7 @@ button{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex: none;
+  flex-shrink: 0;
 }
 
 .hero-image p{
